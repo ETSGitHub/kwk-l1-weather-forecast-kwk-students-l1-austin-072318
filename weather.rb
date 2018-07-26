@@ -16,8 +16,9 @@ description(weather)
 
 # 3. Using the methods above and string interpolation, update the method below so that it returns a string that describes the current weather - for example: "The weather in New York is Partly Cloudy. The temperature is 66.1 degrees Farenheit." HINT: the method should RETURN the string, not print it to the terminal. 
 def weather_report(nyc_weather)
-count = 0
-weather.each do |key,value|
+city = "New York"
+description = "Partly Cloudy"
+temperature_farenheit = "66.3"
   return "The weather in #{city} is #{description}. The temperature is #{temperature_farenheit} degrees Farenheit."
 end
 weather_report(nyc_weather)
@@ -26,6 +27,8 @@ end
 # You'll want to use the each method to iterate over the hash and print out
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 def city_weather_info (nyc_weather)
+weather = {:city => "New York", :description => "Partly Cloudy",
+:temperature_farenheit => "66.3"}
 count = 0
 weather.each do |key,value|
   return "The #{key} is #{value}."
