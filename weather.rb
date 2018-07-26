@@ -46,3 +46,5 @@ temperature_celcius = convert_temp
 temperature_celcius.to_f.round(2)
 puts temperature_celcius
 end
+
+convert_temp(weather)
