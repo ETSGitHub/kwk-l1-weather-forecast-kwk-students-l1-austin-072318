@@ -30,7 +30,7 @@ weather = {:city => "New York", :description => "Partly Cloudy", :temperature_ce
 count = 0
 weather.each do |key,value|
   return "The [key] is [value]."
-  
+  puts ""
 count += 1
 end
 
