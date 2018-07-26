@@ -43,3 +43,4 @@ def convert_temp(nyc_weather)
 :temperature_farenheit => "66.3"}
 temperature_celcius == (temperature_farenheit - 32) * (5.0/9.0)
 temperature_celcius.to_f.round(2)
+end
