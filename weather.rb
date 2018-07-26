@@ -42,4 +42,4 @@ def convert_temp(nyc_weather)
   weather = {:city => "New York", :description => "Partly Cloudy",
 :temperature_farenheit => "66.3"}
 temperature_celcius == (temperature_farenheit - 32) * (5.0/9.0)
-temperature_celcius.to_f.round()
+temperature_celcius.to_f.round(2)
