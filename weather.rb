@@ -39,4 +39,6 @@ end
 
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
 def convert_temp(nyc_weather)
-  
+  weather = {:city => "New York", :description => "Partly Cloudy",
+:temperature_farenheit => "66.3"}
+temperature_celcius == (temperature_farenheit
