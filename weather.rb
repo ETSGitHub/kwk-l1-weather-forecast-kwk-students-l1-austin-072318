@@ -18,7 +18,7 @@ description(weather)
 def weather_report(nyc_weather)
 city = "New York"
 description = "Partly Cloudy"
-temperature_farenheit = "66.3"
+temperature_farenheit = "75"
   return "The weather in #{city} is #{description}. The temperature is #{temperature_farenheit} degrees Farenheit."
 end
 
