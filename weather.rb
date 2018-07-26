@@ -29,8 +29,7 @@ def city_weather_info (nyc_weather)
 weather = {:city => "New York", :description => "Partly Cloudy", :temperature_celcius => "19.1", :temperature_farenheit => "75"}
 count = 0
 weather.each do |key,value|
-  return "The [key] is [value]."
-  puts "The city is "
+  puts "The #{key} is #{value}"
 count += 1
 end
 
