@@ -39,6 +39,3 @@ puts city_weather_info (nyc_weather)
 
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
 
-def
-
-end
