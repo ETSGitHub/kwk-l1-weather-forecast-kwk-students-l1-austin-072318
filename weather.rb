@@ -32,10 +32,11 @@ weather.each do |key,value|
   puts "The #{key} is #{value}"
 count += 1
 end
-
+end
 
 
 # BONUS:  Write a method that takes in the weather hash as an argument and converts the farenheit temperature to celcius. Have the method round your answer to two decimal places. Is there a method we can use to round in Ruby?
 
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
-end
+def convert_temp(nyc_weather)
+  
