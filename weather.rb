@@ -31,7 +31,7 @@ weather.each do |key,value|
   return "The #{key} is #{value}."
 count += 1
 end
-city_weather_info (nyc_weather)
+puts city_weather_info (nyc_weather)
 
 
 
@@ -39,6 +39,6 @@ city_weather_info (nyc_weather)
 
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
 
+def
 
-end
 end
