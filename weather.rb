@@ -22,7 +22,7 @@ temperature_farenheit = "66.3"
   return "The weather in #{city} is #{description}. The temperature is #{temperature_farenheit} degrees Farenheit."
 end
 weather_report(nyc_weather)
-end
+
 #4. Write a method that takes in the weather hash as an argument. 
 # You'll want to use the each method to iterate over the hash and print out
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
