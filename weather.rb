@@ -26,8 +26,7 @@ end
 # You'll want to use the each method to iterate over the hash and print out
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 def city_weather_info (nyc_weather)
-weather = {:city => "New York", :description => "Partly Cloudy",
-:temperature_farenheit => "66.3"}
+weather = {:city => "New York", :description => "Partly Cloudy", :temperature_celcius => "19.1", :temperature_farenheit => "75"}
 count = 0
 weather.each do |key,value|
   return "The [key] is [value]."
